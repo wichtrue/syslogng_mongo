@@ -1,0 +1,41 @@
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.568+0000 I CONTROL  [main] Automatically disabling TLS 1.0, to force-enable TLS 1.0 specify --sslDisabledProtocols 'none'
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] MongoDB starting : pid=1 port=27017 dbpath=/data/db 64-bit host=5f04cb4bb4df
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] db version v4.0.3
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] git version: 7ea530946fa7880364d88c8d8b6026bbc9ffa48c
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.2g  1 Mar 2016
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] allocator: tcmalloc
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] modules: none
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] build environment:
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten]     distmod: ubuntu1604
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten]     distarch: x86_64
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten]     target_arch: x86_64
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I CONTROL  [initandlisten] options: { net: { bindIpAll: true } }
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.578+0000 I STORAGE  [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2019-03-21T17:39:24+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:24.579+0000 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=407M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),statistics_log=(wait=0),verbose=(recovery_progress),
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.598+0000 I STORAGE  [initandlisten] WiredTiger message [1553164765:598705][1:0x7f214b19ea00], txn-recover: Main recovery loop: starting at 8/8448
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.710+0000 I STORAGE  [initandlisten] WiredTiger message [1553164765:710190][1:0x7f214b19ea00], txn-recover: Recovering log 8 through 9
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.787+0000 I STORAGE  [initandlisten] WiredTiger message [1553164765:787903][1:0x7f214b19ea00], txn-recover: Recovering log 9 through 9
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.843+0000 I STORAGE  [initandlisten] WiredTiger message [1553164765:843452][1:0x7f214b19ea00], txn-recover: Set global recovery timestamp: 0
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.932+0000 I RECOVERY [initandlisten] WiredTiger recoveryTimestamp. Ts: Timestamp(0, 0)
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] 
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] 
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] 
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/enabled is 'always'.
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] 
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] ** WARNING: /sys/kernel/mm/transparent_hugepage/defrag is 'always'.
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] **        We suggest setting it to 'never'
+2019-03-21T17:39:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:25.992+0000 I CONTROL  [initandlisten] 
+2019-03-21T17:39:26+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:26.035+0000 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db/diagnostic.data'
+2019-03-21T17:39:26+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:39:26.037+0000 I NETWORK  [initandlisten] waiting for connections on port 27017
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.699+0000 I CONTROL  [signalProcessingThread] got signal 15 (Terminated), will terminate after current cmd ends
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.699+0000 I NETWORK  [signalProcessingThread] shutdown: going to close listening sockets...
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.700+0000 I NETWORK  [signalProcessingThread] removing socket file: /tmp/mongodb-27017.sock
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.700+0000 I CONTROL  [signalProcessingThread] Shutting down free monitoring
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.700+0000 I FTDC     [signalProcessingThread] Shutting down full-time diagnostic data capture
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.702+0000 I STORAGE  [signalProcessingThread] WiredTigerKVEngine shutting down
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.859+0000 I STORAGE  [signalProcessingThread] shutdown: removing fs lock...
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.859+0000 I CONTROL  [signalProcessingThread] now exiting
+2019-03-21T17:40:25+00:00 192.168.224.1 mongodb[16651]: 2019-03-21T10:40:25.859+0000 I CONTROL  [signalProcessingThread] shutting down with code:0

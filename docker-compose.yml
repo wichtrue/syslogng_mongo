@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  syslog-ng:
+    container_name: syslog-ng
+    build: .
+    ports:
+      - "514:514"
+      - "601:601"
+      - "6514:6514"
+    volumes:
+      - "./syslog-ng/logs:/var/log/syslog-ng"
+      - "./syslog-ng/socket:/var/run/syslog-ng"
+      - "./syslog-ng/config/:/etc/syslog-ng"
+  mongodb:
+    image: mongo:4.0.3
+    container_name: mongodb
+    restart: always
+    volumes:
+        #- /var/log/mongodb:/var/log/mongodb
+        - ./data:/data/db:z
+        - /opt/mongodb/mongod.conf:/etc/mongod.conf
+    ports:
+        - 27017:27017
+   #  environment:
+   #   MONGO_INITDB_ROOT_USERNAME: root
+   #   MONGO_INITDB_ROOT_PASSWORD: example
+    depends_on:
+      - syslog-ng
+    logging:
+      driver: "syslog"
+      options:
+        syslog-address: "tcp://127.0.0.1:514"
+        tag: "mongodb"
+
