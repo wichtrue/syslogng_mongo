@@ -9,16 +9,16 @@ services:
       - "601:601"
       - "6514:6514"
     volumes:
-      - "./syslog-ng/logs:/var/log/syslog-ng"
-      - "./syslog-ng/socket:/var/run/syslog-ng"
-      - "./syslog-ng/config/:/etc/syslog-ng"
+      - "/var/log/syslog-ng/logs:/var/log/syslog-ng"
+      - "/var/log/syslog-ng/socket:/var/run/syslog-ng"
+      - "/var/log/syslog-ng/config/:/etc/syslog-ng"
   mongodb:
     image: mongo:4.0.3
     container_name: mongodb
     restart: always
     volumes:
         #- /var/log/mongodb:/var/log/mongodb
-        - ./data:/data/db:z
+        - /data/db:/data/db:z
         - /opt/mongodb/mongod.conf:/etc/mongod.conf
     ports:
         - 27017:27017
