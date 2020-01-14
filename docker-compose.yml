@@ -19,7 +19,7 @@ services:
     volumes:
         #- /var/log/mongodb:/var/log/mongodb
         - /data/db:/data/db:z
-        - /opt/mongodb/mongod.conf:/etc/mongod.conf
+        #- /opt/mongodb/mongod.conf:/etc/mongod.conf
     ports:
         - 27017:27017
    #  environment:
